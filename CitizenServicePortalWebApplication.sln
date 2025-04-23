@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CitizenServicePortal.API", "CitizenServicePortal.API", "{6F3F2E68-5A50-4A21-AC18-4E4DF9EDC637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CitizenServicePortal.Model", "CitizenServicePortal.Model", "{A3884FEE-C0F4-4DDA-939F-EB09A30D7B9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CitizenServicePortal.Repository", "CitizenServicePortal.Repository", "{E4A27EE6-954A-494C-BE4B-2A1785099ED3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CitizenServicePortal.UI", "CitizenServicePortal.UI", "{87F6D7F0-7D93-4A5D-A232-8BDC610B65CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitizenServicePortalWebAPI", "CitizenServicePortalWebAPI\CitizenServicePortalWebAPI.csproj", "{8DA20D0B-4AC7-4789-A13C-B36404921C50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitizenServicePortalModel", "CitizenServicePortalModel\CitizenServicePortalModel.csproj", "{F1C0C756-B5C9-4F0B-A475-5A0D07F8B885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CitizenServicePortalRepository", "CitizenServicePortalRepository\CitizenServicePortalRepository.csproj", "{6362FC8D-67F8-488C-9A79-BCA962A46982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitizenServicePortalWebApplicationUI", "CitizenServicePortalWebApplicationUI\CitizenServicePortalWebApplicationUI.csproj", "{36735E7E-2477-46F2-80CD-A8114E76FF87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA20D0B-4AC7-4789-A13C-B36404921C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA20D0B-4AC7-4789-A13C-B36404921C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA20D0B-4AC7-4789-A13C-B36404921C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA20D0B-4AC7-4789-A13C-B36404921C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C0C756-B5C9-4F0B-A475-5A0D07F8B885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C0C756-B5C9-4F0B-A475-5A0D07F8B885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C0C756-B5C9-4F0B-A475-5A0D07F8B885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C0C756-B5C9-4F0B-A475-5A0D07F8B885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6362FC8D-67F8-488C-9A79-BCA962A46982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6362FC8D-67F8-488C-9A79-BCA962A46982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6362FC8D-67F8-488C-9A79-BCA962A46982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6362FC8D-67F8-488C-9A79-BCA962A46982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36735E7E-2477-46F2-80CD-A8114E76FF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36735E7E-2477-46F2-80CD-A8114E76FF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36735E7E-2477-46F2-80CD-A8114E76FF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36735E7E-2477-46F2-80CD-A8114E76FF87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DA20D0B-4AC7-4789-A13C-B36404921C50} = {6F3F2E68-5A50-4A21-AC18-4E4DF9EDC637}
+		{F1C0C756-B5C9-4F0B-A475-5A0D07F8B885} = {A3884FEE-C0F4-4DDA-939F-EB09A30D7B9B}
+		{6362FC8D-67F8-488C-9A79-BCA962A46982} = {E4A27EE6-954A-494C-BE4B-2A1785099ED3}
+		{36735E7E-2477-46F2-80CD-A8114E76FF87} = {87F6D7F0-7D93-4A5D-A232-8BDC610B65CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D8D35F8-70DF-46BB-9987-6F4610F252BC}
+	EndGlobalSection
+EndGlobal
